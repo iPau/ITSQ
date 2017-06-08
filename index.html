@@ -1,0 +1,29 @@
+<html>
+<!-- <textarea id="main" placeholder="Enter text here..."></textarea> -->
+<!-- <button id="mainbt" onclick="mainbt1()">Hello<i class="fa fa-arrow-right" aria-hidden="true"></i></button> -->
+<body>
+  <form>
+    Username:
+    <input type="text" name="uname" id = "user"><br> <br>
+    Password:
+    <input type="text" name="pword" id="pass"> <b>
+    <input type="submit"   value="Submit" onclick="Samp()">
+  </form>
+
+  <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAnCCJgVYdbhEJZKw4ksLULuc8F3OUmkZg",
+      authDomain: "sample-d693b.firebaseapp.com",
+      databaseURL: "https://sample-d693b.firebaseio.com",
+      projectId: "sample-d693b",
+      storageBucket: "sample-d693b.appspot.com",
+      messagingSenderId: "1095029859300"
+    };
+    firebase.initializeApp(config);
+  </script>
+
+<script src="index.js"></script>
+</body>
+</html>
